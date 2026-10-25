@@ -10,6 +10,14 @@ I used LangGraph to manage the food order flow. Each step has a responsibility f
 
 For example if a user requests items than are available the system can handle the situation as a partial food order. If serving fails the system can retry the operation within the configured retry limit. If all attempts fail the food order ends with a failure status.
 
+## SS 
+<img width="1466" height="660" alt="image" src="https://github.com/user-attachments/assets/811ae3ed-6993-4679-acbc-6979c0d6a8cf" />
+
+## Test
+<img width="1452" height="783" alt="image" src="https://github.com/user-attachments/assets/8d242f1d-7dc0-4b9d-adea-1af3ab3ab256" />
+
+
+
 ## ⚙️ How I Built It
 
 I used Python for the application logic and LangGraph to connect the different steps into a food order workflow.
